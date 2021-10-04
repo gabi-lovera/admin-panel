@@ -1,7 +1,7 @@
 import { Bar } from "react-chartjs-2";
 
 const data = {
-  labels: ["1", "2", "3", "4", "5", "6"],
+  labels: ["Antes", "2016", "2017", "2018", "2019", "2021"],
   datasets: [
     {
       label: "Usuarios",

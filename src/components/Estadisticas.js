@@ -35,7 +35,7 @@ export default function Estadisticas() {
                       Profesionales
                     </h5>{" "}
                     <p className="textbody-dh">
-                      Cantidad de martilleros registrados en la plataforma
+                      Cantidad de profesionales con los que contamos
                     </p>
                     <h1 className="icon-red">
                       <FaUserTie className="icon" />
@@ -49,7 +49,7 @@ export default function Estadisticas() {
                   <div className="card-header line-blue">
                     <h5 className="textheader-dh txt-group-sale">Ventas</h5>{" "}
                     <p className="textbody-dh">
-                      Cantidad de subastas activas en este momento
+                      Cantidad ventas realizadas en el último mes
                     </p>
                     <h1 className="icon-blue">
                       <AiFillTag /> <CountUp end={120} duration={0.2} /> de{" "}
@@ -63,8 +63,7 @@ export default function Estadisticas() {
                   <div className="card-header line-orange">
                     <h5 className="textheader-dh txt-group-sale">Utilidad</h5>{" "}
                     <p className="textbody-dh">
-                      Cantidad de remates presenciales publicados en la
-                      plataforma
+                      Ganancias obtenidas hasta el momento
                     </p>
                     <h1 className="icon-orange">
                       <BiDollar className="icon" />
